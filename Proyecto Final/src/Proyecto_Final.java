@@ -25,7 +25,7 @@ public class Proyecto_Final {
 		int valorsimple=20,valorrevancha=30,valormultiple1=0,valormultiple2=0,valormultiple3=0,valormultiple4=0;
 		int combinacion=0;
 		int apuesta_simple, apuesta_multiple,solo_5_oro, oro_revancha, opcion,opcion2=0,opcion3=0;
-		
+		//HOLA
 		// inicialisiacion de Random y Scanner
 
 		Random rnd = new Random();
