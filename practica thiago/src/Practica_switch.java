@@ -19,6 +19,7 @@ public class Practica_switch {
 			System.out.println("1-suma");
 			System.out.println("2-resta");
 			System.out.println("3-Salimo mono");
+			opcion=sc.nextInt();
 			switch(opcion) {
 			case 1:
 				System.out.println("ingresame numero");
