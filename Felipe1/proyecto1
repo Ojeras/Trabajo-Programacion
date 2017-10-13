@@ -1,0 +1,54 @@
+#Voy a hacer una calculadora
+
+#defino la funcion opciones
+def Opciones():
+    print"1-sumar"
+    print"2-restar"
+    print"3-multiplicar"
+    print"4-dividir"
+    print"5-potencia"
+    print"6-salir"
+
+#Variables
+num1=(0)
+num2=(0)
+resultado=(0)
+opcion=(0)
+salir=False
+
+while (salir==False):    
+    Opciones()
+    opcion = input("ingresa una opcion")
+    if (opcion==1):
+        num1=input("ingresa el valor del primer numero")
+        num2=input("ingresa el valor del segundo numero")
+        resultado = num1+num2
+        print (resultado)
+    
+    elif (opcion==2):
+        num1=input("ingresa el valor del primer numero")
+        num2=input("ingresa el valor del segundo numero") 
+        resultado = num1-num2
+        print (resultado)
+
+    elif (opcion==3):
+        num1=input("ingresa el valor del primer numero")
+        num2=input("ingresa el valor del segundo numero") 
+        resultado = num1*num2
+        print (resultado)
+
+    elif (opcion==4):
+        num1=input("ingresa el valor del primer numero")
+        num2=input("ingresa el valor del segundo numero") 
+        resultado = num1/num2
+        print (resultado)    
+        
+    elif (opcion==5):
+        num1=input("ingresa el valor del primer numero")
+        num2=input("ingresa el valor del segundo numero") 
+        resultado = num1**num2
+        print (resultado)
+            
+    elif (opcion==6):
+        print "gracias por usar la calculadora"
+        salir = True        
